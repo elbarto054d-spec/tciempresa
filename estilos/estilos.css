@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+
+/* PERSONALIZADO */
+tit {
+    background: #2c3e50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h2 {
+    text-align: justify;
+}
+
+li {
+    text-align: justify;
+}
+
+/* TABLA INICIO */
+table {
+    width: 73%;
+    border-collapse: collapse;
+    margin-top: 0px;
+}
+
+th, td {
+    border: 2px solid #0982a0;
+    text-align: left;
+}
+
+
+/* MENÚ */
+.menu {
+    list-style: none;
+    display: flex;
+    background: #333;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    top: 80px; /* menú pegado arriba */
+    width: 100%;
+    z-index: 100;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.menu a:hover {
+    color: #00bcd4;
+}
+
+/* SECCIONES DINAMICAS CON MENÚ */
+.seccion {
+    display: none;
+}
+
+.activa {
+    display: block;
+}
